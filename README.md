@@ -2,7 +2,7 @@
 
 This is a native iOS and Android application that displays my favourite 5 sets from the [Boiler Room YouTube Channel](https://www.youtube.com/user/brtvofficial).
 
-![alt text](https://gifyu.com/images/boilerroomgif.md.gif)
+![Demo gif](./src/assets/boilerroomgif.gif)
 
 ### How to demo the app
 
