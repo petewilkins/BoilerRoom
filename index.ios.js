@@ -1,9 +1,13 @@
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import Header from './src/components/Header';
+import SetList from './src/components/SetList';
 
 const App = () => (
-  <Header headerText={'Sets'}/>
+  <View>
+    <Header headerText={'Sets'}/>
+    <SetList />
+  </View>
 );
 
 AppRegistry.registerComponent('BoilerRoom', () => App);
