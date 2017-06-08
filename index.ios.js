@@ -4,7 +4,7 @@ import Header from './src/components/Header';
 import SetList from './src/components/SetList';
 
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Sets'}/>
     <SetList />
   </View>
