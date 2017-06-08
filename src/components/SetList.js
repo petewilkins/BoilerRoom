@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-const SetList = () => {
-  return (
-    <View>
-      <Text>Set List!</Text>
-    </View>
-  );
-};
+class SetList extends Component {
+  render() {
+    return (
+      <View>
+        <Text>Set List!</Text>
+      </View>
+    );
+  }
+}
 
 export default SetList;
