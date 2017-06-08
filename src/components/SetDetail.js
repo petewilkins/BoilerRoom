@@ -35,7 +35,7 @@ const SetDetail = ({ set }) => {
       </CardSection>
       <CardSection>
         <Button onPress={() => Linking.openURL(url)}>
-          Watch This Set
+          Watch Set
         </Button>
       </CardSection>
     </Card>
@@ -57,8 +57,7 @@ const styles = {
   thumbnailContainerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 10,
-    marginRight: 10,
+    marginRight: 5,
   },
   imageStyle: {
     height: 200,
