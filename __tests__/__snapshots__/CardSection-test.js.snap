@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CardSection component correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderBottomWidth": 1,
+      "borderColor": "#DDDDDD",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "padding": 5,
+      "position": "relative",
+    }
+  }
+/>
+`;
