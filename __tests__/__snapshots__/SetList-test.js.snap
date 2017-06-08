@@ -5,3 +5,9 @@ exports[`renders the SetDetail component correctly 1`] = `
   <View />
 </RCTScrollView>
 `;
+
+exports[`renders the SetList component correctly 1`] = `
+<RCTScrollView>
+  <View />
+</RCTScrollView>
+`;
