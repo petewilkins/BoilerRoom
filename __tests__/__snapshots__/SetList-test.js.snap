@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the SetDetail component correctly 1`] = `
-<RCTScrollView>
-  <View />
-</RCTScrollView>
-`;
-
 exports[`renders the SetList component correctly 1`] = `
 <RCTScrollView>
   <View />
