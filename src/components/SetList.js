@@ -7,7 +7,7 @@ class SetList extends Component {
   state = { sets: [] };
 
   componentWillMount() {
-    axios.get('https://rallycoding.herokuapp.com/api/music_albums')
+    axios.get('https://api.myjson.com/bins/5zkr9')
       .then(response => this.setState({ sets: response.data }));
   }
 

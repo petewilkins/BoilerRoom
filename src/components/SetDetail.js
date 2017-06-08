@@ -35,7 +35,7 @@ const SetDetail = ({ set }) => {
       </CardSection>
       <CardSection>
         <Button onPress={() => Linking.openURL(url)}>
-          Buy Now
+          Watch This Set
         </Button>
       </CardSection>
     </Card>
@@ -61,9 +61,8 @@ const styles = {
     marginRight: 10,
   },
   imageStyle: {
-    height: 300,
-    flex: 1,
-    width: null,
+    height: 180,
+    width: 320,
   },
 };
 
