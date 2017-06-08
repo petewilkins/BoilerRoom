@@ -1,6 +1,6 @@
 # BoilerRoom
 
-This is a native iOS and Android application that displays my favourite 5 sets from the [BoilerRoom YouTube Channel](https://www.youtube.com/user/brtvofficial).
+This is a native iOS and Android application that displays my favourite 5 sets from the [Boiler Room YouTube Channel](https://www.youtube.com/user/brtvofficial).
 
 ![alt text](http://i.imgur.com/WLC34kt.png)
 
