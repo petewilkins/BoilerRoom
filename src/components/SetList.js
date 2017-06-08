@@ -7,7 +7,7 @@ class SetList extends Component {
   state = { sets: [] };
 
   componentWillMount() {
-    axios.get('https://api.myjson.com/bins/5zkr9')
+    axios.get('https://api.myjson.com/bins/1fct1x')
       .then(response => this.setState({ sets: response.data }));
   }
 

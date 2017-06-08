@@ -61,8 +61,9 @@ const styles = {
     marginRight: 10,
   },
   imageStyle: {
-    height: 180,
-    width: 320,
+    height: 200,
+    flex: 1,
+    width: null,
   },
 };
 

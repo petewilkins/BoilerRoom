@@ -5,7 +5,7 @@ import SetList from './src/components/SetList';
 
 const App = () => (
   <View style={{ flex: 1 }}>
-    <Header headerText={'Sets'}/>
+    <Header headerText={'Boiler Room Sets'}/>
     <SetList />
   </View>
 );
