@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import axios from 'axios';
+import SetDetail from './SetDetail';
 
 class SetList extends Component {
   state = { sets: [] };
@@ -10,12 +11,18 @@ class SetList extends Component {
       .then(response => this.setState({ sets: response.data }));
   }
 
+  renderSets() {
+    return this.state.sets.map(set =>
+      <SetDetail key={set.title} set={set} />
+    );
+  }
+
   render() {
     console.log(this.state);
 
     return (
       <View>
-        <Text>Set List!</Text>
+        {this.renderSets()}
       </View>
     );
   }
