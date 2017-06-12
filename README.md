@@ -16,7 +16,7 @@ $ git clone git@github.com/petewilkins/BoilerRoom.git
 $ cd BoilerRoom
 $ npm install
 ```
-If you encounter any errors, update note and try again
+If you encounter any errors, update node package manager and try again
 ```
 $ npm update
 ```
